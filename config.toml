@@ -42,7 +42,11 @@ posts = "/:year/:month/:day/:slug"
     name = "关于我"
     url = "/about/"
     weight = 5
-
+  
+  [[menu.main]]
+    name = "学校主页"
+    url = "/main/"
+    weight = 6
 
 [params]
     since = 2009
