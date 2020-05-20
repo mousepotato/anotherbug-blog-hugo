@@ -1,7 +1,7 @@
 ---
 title: "{{ substr (replace .TranslationBaseName "-" " ") 11 | title }}" # remove yyyy-MM-dd prefix in the filename 
 date: {{ .Date }}
-draft: true
+draft: false
 hidedate: true 
 tags: []
 categories: [""]
