@@ -48,6 +48,8 @@ posts = "/:year/:month/:day/:slug"
     url = "/main/"
     weight = 6
 
+GoogleAnalytics = "UA-11501178-2"
+
 [params]
     since = 2009
     author = "mousepotato"                          
