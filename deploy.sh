@@ -15,17 +15,8 @@ git push origin master
 # Build the project.
 hugo -t mogege #if using a theme, replace by `hugo -t <yourtheme>`
 
-# Go To Public folder
-cd public
-# Add changes to git.
+cp -rf /Users/$(whoami)/Dropbox/Projects/anotherbug-blog-hugo/public/* /Users/$(whoami)/Dropbox/Projects/mousepotato.github.io/
+cd /Users/$(whoami)/Dropbox/Projects/mousepotato.github.io/
 git add .
-
-# Commit changes.
-
 git commit -m "$msg"
-
-# Push source and build repos.
 git push origin master
-
-# Come Back
-cd ..
