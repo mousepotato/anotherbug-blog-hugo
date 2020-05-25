@@ -3,9 +3,9 @@ layout: post
 title:  "How to install third party beamer theme"
 description: "如何安装第三方的Beamer theme"
 categories: 
-- Technique
+- technique
 tags:
-- Latex
+- latex
 ---
  
 

@@ -3,7 +3,7 @@ title: "Test post using Hugo"
 date: 2020-05-18T11:24:40-07:00
 draft: false
 categories:
-- Technique
+- technique
 tags:
 - test
 ---

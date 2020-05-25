@@ -3,9 +3,9 @@ layout: post
 title: "Box content APIs example"
 description: "使用Box API的例子"
 categories: 
-- Technique
+- technique
 tags:
-- Programming
+- programming
 ---
 
 

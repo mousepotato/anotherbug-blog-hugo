@@ -3,11 +3,11 @@ layout: post
 title: "Fitbit HR heart rate data monitoring"
 description: "Fitbit HR heart rate data monitoring"
 categories: 
-- Personal
+- personal
 tags:
-- Life
-- Hacks
-- Nodejs
+- life
+- hacks
+- nodejs
 ---
 
 

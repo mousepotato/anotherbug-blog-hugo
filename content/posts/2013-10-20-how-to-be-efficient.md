@@ -3,10 +3,10 @@ layout: post
 title: How to be efficient
 description: "如何高效"
 categories: 
-- Personal
+- personal
 tags: 
-- Random Thoughts
-- GTD
+- random-thoughts
+- gtd
 ---
 
 ----------------

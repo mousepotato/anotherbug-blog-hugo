@@ -2,9 +2,9 @@
 title: how to setup multiple github ssh keys
 date: 2016-12-13 15:25:43
 categories:
-- Technique
+- technique
 tags:
-- Git
+- git
 ---
 
 

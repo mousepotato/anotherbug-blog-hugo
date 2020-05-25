@@ -3,10 +3,10 @@ layout: post
 title: "How to make presentation using markdown"
 description: "本文介绍如何使用Markdown编写报告。"
 categories: 
-- Research
+- research
 tags:
-- Markdown
-- Ubuntu
+- markdown
+- ubuntu
 ---
 
 

@@ -3,9 +3,9 @@ layout: post
 title:  "How to crack the master lock"
 description: "本文介绍如何轻松破解Master Lock锁" 
 categories: 
-- Personal
+- personal
 tags:
-- Hacks
+- hacks
 ---
 
 

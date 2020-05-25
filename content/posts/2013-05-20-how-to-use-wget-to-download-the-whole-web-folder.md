@@ -3,10 +3,10 @@ layout: post
 title:  "How to use wget to donwload the whole web folder"
 description: "如何使用wget下载整个网站的文件夹"
 categories: 
-- Technique
+- technique
 tags:
-- Ubuntu
-- Linux
+- ubuntu
+- linux
 ---
 
 

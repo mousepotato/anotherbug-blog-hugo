@@ -3,7 +3,7 @@ layout: post
 title: "Linksys E1550 刷DD-WRT教程"
 description: "Linksys E1550路由器刷DD-WRT教程"
 categories: 
-- Technique
+- technique
 tags:
 - dd-wrt
 ---

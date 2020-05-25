@@ -3,10 +3,10 @@ layout: post
 title: "Screen scrollback"
 description: "screen scrollback setting"
 categories: 
-- Technique
+- technique
 tags:
-- Linux
-- Ubuntu
+- linux
+- ubuntu
 ---
 
 

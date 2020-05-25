@@ -3,10 +3,10 @@ layout: post
 title: "Leetcode remove duplicates from sorted array"
 description: "Leetcode 刷题有感 Leetcode remove duplicates from sorted array"
 categories: 
-- Technique
+- technique
 tags:
-- Algorithm
-- Leetcode
+- algorithm
+- leetcode
 ---
 
 

@@ -3,10 +3,10 @@ layout: post
 title: "Linux 下的查看系统内存信息"
 description: "Linux下查看系统内存的方法"
 categories: 
-- Technique
+- technique
 tags: 
-- Linux
-- Ubuntu
+- linux
+- ubuntu
 ---
 
 

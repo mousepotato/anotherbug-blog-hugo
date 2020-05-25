@@ -3,10 +3,10 @@ layout: post
 title: Screen 使用之无废话5行命令
 description: "Linux screen in 5 command lines"
 categories: 
-- Technique
+- technique
 tags:
-- Ubuntu
-- Linux
+- ubuntu
+- linux
 ---
 
 

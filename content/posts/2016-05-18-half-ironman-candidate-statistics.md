@@ -3,7 +3,7 @@ layout: post
 title: "Half Ironman santa cruz 70.3 candidates statistics"
 description: "Half Ironman santa cruz 70.3 candidates statistics"
 categories: 
-- Technique
+- technique
 tags:
 - awk
 - shell 

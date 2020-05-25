@@ -3,10 +3,10 @@ layout: post
 title:  How to download a whole website using wget with chinese character support 
 description: "如何使用wget下载整个网站同时支持中文命名"
 categories: 
-- Technique
+- technique
 tags:
-- Linux
-- Ubuntu
+- linux
+- ubuntu
 ---
 
 

@@ -3,10 +3,10 @@ layout: post
 title: "Bash pattern match"
 description: "Bash pattern match"
 categories: 
-- Technique
+- technique
 tags:
-- Linux
-- Ubuntu
+- linux
+- ubuntu
 ---
 
 

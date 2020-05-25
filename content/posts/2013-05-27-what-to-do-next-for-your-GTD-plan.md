@@ -3,9 +3,9 @@ layout: post
 title:  "What to do next for your GTD plan"
 description: "如何根据事情的轻重缓急设定执行顺序，也就是GTD 的下一步计划如何选择的标准。"
 categories: 
-- Personal
+- personal
 tags:
-- GTD
+- gtd
 ---
 
 

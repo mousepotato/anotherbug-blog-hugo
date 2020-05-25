@@ -3,10 +3,10 @@ layout: post
 title: 使用 Node JS 批量下载网站的图片
 description: "介绍如何使用Node Js 批量下载网站上的图片，使用的技术包括Node Js插件的使用，编码转换，HTML DOM处理，Javascript 闭包等等。"
 categories: 
-- Technique
+- technique
 tags:
-- Nodejs
-- Programming
+- nodejs
+- programming
 ---
 
 

@@ -5,10 +5,10 @@ description: "本文介绍如何使用Virtualbox搭建具有多个节点的hadoo
 categories: 
 - Technique
 tags:
-- Cloud Computing
-- Hadoop
-- Ubuntu
-- VirtualBox
+- cloud-computing
+- hadoop
+- ubuntu
+- virtualBox
 ---
 
 

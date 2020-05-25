@@ -3,9 +3,9 @@ layout: post
 title:  "How to create Schulte Grid using Excel"
 descript: "如何使用Excel制作一个建议的舒尔特方格"
 categories: 
-- Personal
+- personal
 tags:
-- Life
+- life
 ---
 
 
