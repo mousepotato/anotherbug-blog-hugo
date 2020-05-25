@@ -1,6 +1,6 @@
 ---
  menu: "main"
- showComments: false
+ showComments: true
 ---
 
 记录我所使用过的好物。本着如下几个原则：
