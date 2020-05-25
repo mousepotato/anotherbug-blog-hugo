@@ -5,7 +5,7 @@ description: "Linux 下的 /dev/null, /dev/full, /dev/zero文件介绍和使用�
 categories: 
 - technique
 tags:
-- lLinux
+- linux
 - ubuntu
 ---
 

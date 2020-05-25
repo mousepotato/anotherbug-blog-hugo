@@ -16,7 +16,7 @@ posts = "/:year/:month/:day/:slug"
 
 ## 保持分类的原始名字（false会做转小写处理）
 # 若为 false，`Getting Started` 这样的英文标签将会被转换为 `getting-started`
-preserveTaxonomyNames = false
+preserveTaxonomyNames = true
 
 
 

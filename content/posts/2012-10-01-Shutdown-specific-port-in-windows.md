@@ -3,7 +3,7 @@ layout: post
 title: "Windows 下如何关闭特定端口"
 description: 
 categories: 
-- Technique
+- technique
 tags:
 - windows
 ---
