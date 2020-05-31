@@ -12,7 +12,7 @@
 ## 工作
 
 ### 桌椅
-- [Herman Miller Aeron Chair 椅子](https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/) （12 年质保，铁王座，如果条件允许建议直接上 Embody 款）
+- [Herman Miller Aeron Chair 椅子](https://amzn.to/2XJILXN) （12 年质保，铁王座，如果条件允许建议直接上 Embody 款）
 -  升降桌
    -  [UPLIFT Laminate Desktop - Cherry - 72" x 30"](https://www.upliftdesk.com/uplift-v2-laminate-standing-desk/)
    -  [Teknion](https://www.teknion.com/ca/products/landing-pages/sit-stand) (E223 老款手动升降，好处是不容易坏，坏处是桌子上东西太多每次抬起来比较费力，也是锻炼 :-)
