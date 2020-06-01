@@ -35,16 +35,16 @@ preserveTaxonomyNames = false
     name = "Tags"
     url = "/tags/"
     weight = 3
-  
-  [[menu.main]]
-    name = "好物"
-    url = "/tools/"
-    weight = 4
 
   [[menu.main]]
     name = "TIL"
     url = "/til/"
-    weight = 5    
+    weight = 4    
+
+  [[menu.main]]
+    name = "好物"
+    url = "/tools/"
+    weight = 5
 
   [[menu.main]]
     name = "关于我"
