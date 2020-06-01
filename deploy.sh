@@ -13,6 +13,7 @@ git push origin master
 
 
 # Build the project.
+# modified theme at: https://github.com/mousepotato/mogege
 hugo -t mogege #if using a theme, replace by `hugo -t <yourtheme>`
 
 cp -rf /Users/$(whoami)/Dropbox/Projects/anotherbug-blog-hugo/public/* /Users/$(whoami)/Dropbox/Projects/mousepotato.github.io/
