@@ -3,10 +3,9 @@ title: "SanDisk iXpand Flash Drive"
 date: 2020-07-28T00:22:26-07:00
 draft: false
 categories:
-- technique
+- product
 tags:
-- life
-- hacks
+- random-thoughts
 ---
 
 - 最近买了个 SanDisk iXpand Flash Drive，然后发现使用的时候比较反人类，应该是一个比较典型的企业做产品太作然后把自已作死的例子了。分享一下。
