@@ -9,7 +9,7 @@ featured_image:
 description:
 ---
 
-![s6-os](/assets/images/2020/08/11/tomorrow-will-be-better.jpg)
+![tomorrow-will-be-better](/assets/images/2020/08/11/tomorrow-will-be-better.jpg)
 
 - 一直很喜欢 `We Are the World`，它是由 Michael Jackson 和 Lionel Richie 创作的。是一首为 1985 年非洲埃塞俄比亚发生饥荒援助的公益歌曲。整个制作齐聚了45位当红歌星。若干年前我基本是逐帧研究过，尤其是当中 Michael Jackson 一袭白手套，扭动中身体唱出 "We are the world, we are the children, we are the ones who make a brighter day, so let's start giving" 时，那种震撼如今仍然记忆犹新。
 
