@@ -20,7 +20,7 @@
   
 
 ### 电子产品
-- Macbook Pro
+- Macbook Pro （16-inch, 2019）
 
 - [HHKB Pro 键盘](https://amzn.to/2ZhrTtR)
   - [HHKB 键盘手托](https://amzn.to/3bIQg64)，入了键盘强烈推荐这个
@@ -31,7 +31,7 @@
 
 - Airpods 会议利器，一天 4 个小时在线耳朵也不疼
   - [Apple AirPods](https://amzn.to/3dZ2l8I) 使用率最高的工具
-  - 准备无脑入手下一版本 [Apple AirPods Pro](https://amzn.to/2Zi8SaI)
+  - ~~准备无脑入手下一版本 [Apple AirPods Pro](https://amzn.to/2Zi8SaI)~~ (尝试了 AirPods Pro，耳朵很不舒服，放弃)
 
 
 ## 生活
