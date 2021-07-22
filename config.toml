@@ -42,17 +42,17 @@ preserveTaxonomyNames = false
     weight = 4    
 
   [[menu.main]]
-    name = "好物"
+    name = "好物 (Uses)"
     url = "/tools/"
     weight = 5
 
   [[menu.main]]
-    name = "关于我"
+    name = "关于我 (About me)"
     url = "/about/"
     weight = 6
     
   [[menu.main]]
-    name = "学校主页"
+    name = "学校主页 (Academics)"
     url = "/main/"
     weight = 7
 
