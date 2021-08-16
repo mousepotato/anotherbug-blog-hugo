@@ -3,7 +3,7 @@ title: "章鱼花园 Vol. 1: What's remembered, lives" # remove yyyy-MM-dd prefi
 date: 2021-03-07T22:32:24-07:00
 draft: false
 hidedate: true 
-tags: ["章鱼花园期刊", "Octopus's Garden Weekly"]
+tags: ["章鱼花园期刊"]
 categories: ["Technique"]
 featured_image:
 description:

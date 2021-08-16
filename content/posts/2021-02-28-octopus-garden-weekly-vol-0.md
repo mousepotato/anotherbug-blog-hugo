@@ -3,7 +3,7 @@ title: "章鱼花园 Vol. 0： The Times They Are a-Changin" # remove yyyy-MM-dd
 date: 2021-02-28T22:19:17-07:00
 draft: false
 hidedate: true 
-tags: ["章鱼花园期刊", "Octopus's Garden Weekly"]
+tags: ["章鱼花园期刊"]
 categories: ["Technique"]
 featured_image:
 description:
