@@ -1,6 +1,6 @@
 ---
 title: "章鱼花园 Vol. 4: 「我们这至暂至轻的苦楚，要为我们成就极重无比永远的荣耀」" # remove yyyy-MM-dd prefix in the filename 
-date: 2021-08-16T10:13:44-07:00
+date: 2021-03-28T10:13:44-07:00
 draft: false
 hidedate: true 
 tags: ["章鱼花园期刊"]

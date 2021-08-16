@@ -1,5 +1,5 @@
 ---
-title: "章鱼花园 Vol. 0： The Times They Are a-Changin" # remove yyyy-MM-dd prefix in the filename 
+title: "章鱼花园 Vol. 0: The Times They Are a-Changin" # remove yyyy-MM-dd prefix in the filename 
 date: 2021-02-28T22:19:17-07:00
 draft: false
 hidedate: true 
