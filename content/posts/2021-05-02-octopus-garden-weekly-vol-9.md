@@ -1,5 +1,5 @@
 ---
-title: "Octopus Garden Weekly Vol 9" # remove yyyy-MM-dd prefix in the filename 
+title: "章鱼花园 Vol. 9: Love loves to love love" # remove yyyy-MM-dd prefix in the filename 
 date: 2021-05-02T10:20:17-07:00
 draft: false
 hidedate: true 
