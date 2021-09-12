@@ -9,9 +9,9 @@ featured_image:
 description:
 ---
 
-Flomo 是一个好的应用，我曾写文章介绍[怎么从 Todo 里面把内容导入到 Flomo](https://anotherbug.com/2021/06/30/import-microsoft-todo-notes-to-flomo/)，
+- Flomo 是一个好的应用，我曾写文章介绍[怎么从 Todo 里面把内容导入到 Flomo](https://anotherbug.com/2021/06/30/import-microsoft-todo-notes-to-flomo/)，
 
-- 但是 Flomo 的隐私政策 (Privacy Policy)让我无法接受，我决定不再使用它。
+- 但是 [Flomo 的隐私政策 (Privacy Policy)](https://help.flomoapp.com/privacy) 让我无法接受，我决定不再使用它。
 
 - 另外由于 Flomo 里面的笔记和我 Obsidian 里面的日志无法一起集中起来做搜索，所以我决定也不再使用 Todo。
 
