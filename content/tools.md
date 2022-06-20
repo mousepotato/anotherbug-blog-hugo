@@ -25,6 +25,10 @@
 - [HHKB Pro 键盘](https://amzn.to/2ZhrTtR)
   - [HHKB 键盘手托](https://amzn.to/3bIQg64)，入了键盘强烈推荐这个
 
+- 升级了 [HHKB HYBRID TYPE-S (WHITE)](https://fujitsuscannerstore.com/cg01000-300901/)，选择蓝牙版本纯粹是为了可以在 iPad 上使用，平时电脑都是用 USB-C 连接，不喜欢蓝牙链接（有延迟）。
+
+- 鼠标: Logitch MX Master 3S ，也用过 MX Master 3。 3S 是真的安静，值得升级。
+
 - [Dell U2720Q 4K 显示器](https://amzn.to/3bIxSui)
 
 - [Metal Aluminum Mouse Pad 鼠标垫](https://amzn.to/3dW6OsS) 
