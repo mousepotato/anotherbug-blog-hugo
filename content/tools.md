@@ -12,6 +12,7 @@
 ## 工作
 
 ### 桌椅
+
 - [Herman Miller Aeron Chair 椅子](https://amzn.to/2XJILXN) （12 年质保，铁王座，如果条件允许建议直接上 Embody 款）
 
 -  升降桌
@@ -20,6 +21,9 @@
   
 
 ### 电子产品
+
+- Mac mini M1, 2020 16 GB/1TB SSD. 第一台 M1 mini，运行流畅，安静，买完就喜欢了。
+
 - Macbook Pro （16-inch, 2019）
 
 - [HHKB Pro 键盘](https://amzn.to/2ZhrTtR)
