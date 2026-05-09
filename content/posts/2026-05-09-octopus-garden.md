@@ -1,6 +1,6 @@
 ---
 title: "Octopus Garden"
-date: 2026-05-09T10:02:00-07:00
+date: 2026-05-09T00:02:00+00:00
 draft: false
 hidedate: true
 hideMeta: true
