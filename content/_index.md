@@ -8,3 +8,6 @@ summary = "mousepotato 的个人博客"
 
 - [Octoflow](/2026/05/01/octoflow/)
 - [Chess Improvement AI](/2026/05/01/chess-improvement-ai/)
+- [Vidflow](/2026/05/09/vidflow/)
+- [Octopus](/2026/05/09/octopus/)
+- [Octopus Garden](/2026/05/09/octopus-garden/)
