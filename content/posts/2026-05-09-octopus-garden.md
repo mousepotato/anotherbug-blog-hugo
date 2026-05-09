@@ -6,7 +6,9 @@ hidedate: true
 hideMeta: true
 tags: ["products"]
 categories: [""]
-featured_image:
+cover:
+  image: /assets/images/octopus-garden.jpeg
+  alt: "Octopus Garden 小石头截图"
 description: "Octopus Garden 是一款手机端 PKM 笔记应用，帮助你记录和回顾碎片化想法。"
 product_kind: "手机应用"
 product_platform: "移动端"
