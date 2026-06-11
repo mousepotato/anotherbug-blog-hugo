@@ -42,8 +42,8 @@
     {
       "@type": "ListItem",
       "position": {{ add 1 $index  }},
-      "name": {{ $bc_pg.Name }},
-      "item": {{ $bc_pg.Permalink | safeHTML }}
+      "name": {{ $bc_pg.Name | jsonify }},
+      "item": {{ $bc_pg.Permalink | jsonify }}
     }
     {{- end }}
 
@@ -53,8 +53,8 @@
     {
       "@type": "ListItem",
       "position": {{len $bc_list}},
-      "name": {{ .Name }},
-      "item": {{ .Permalink | safeHTML }}
+      "name": {{ .Name | jsonify }},
+      "item": {{ .Permalink | jsonify }}
     }
   ]
 }
@@ -92,23 +92,21 @@
   {{- end -}}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
-  {{- with (.Params.author | default site.Params.author) }}
-  "author":
-    {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
-  [{{- range $i, $v := . -}}
-  {{- if $i }}, {{end -}}
-  {
+  {{- $ad := site.Params.authorDetails }}
+  "author": {
     "@type": "Person",
-    "name": {{ $v }}
-  }
-  {{- end }}],
-    {{- else -}}
-  {
-    "@type": "Person",
-    "name": {{ . }}
+    "name": "{{ (($ad).name | default site.Params.author) | safeJS }}",
+    {{- if ($ad).jobTitle }}
+    "jobTitle": "{{ $ad.jobTitle | safeJS }}",
+    {{- end }}
+    {{- if ($ad).description }}
+    "description": "{{ $ad.description | safeJS }}",
+    {{- end }}
+    {{- if ($ad).sameAs }}
+    "sameAs": [{{ range $i, $e := $ad.sameAs }}{{ if $i }}, {{ end }}"{{ $e | safeURL }}"{{ end }}],
+    {{- end }}
+    "url": "{{ (site.GetPage "/about").Permalink | safeURL }}"
   },
-    {{- end -}}
-  {{- end }}
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink | safeHTML }}
