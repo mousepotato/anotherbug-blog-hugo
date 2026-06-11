@@ -5,6 +5,7 @@ draft: false
 hidedate: true
 hideMeta: true
 tags: ["products"]
+keywords: ["Octopus Garden", "PKM", "笔记应用", "碎片化笔记", "手机应用", "独立开发者", "mousepotato"]
 categories: [""]
 cover:
   image: /assets/images/octopus-garden.jpeg

@@ -5,6 +5,7 @@ draft: false
 hidedate: true
 hideMeta: true
 tags: ["products", "android"]
+keywords: ["Chess Improvement AI", "chess app", "AI 下棋", "棋力提升", "Android 应用", "独立开发者", "mousepotato"]
 categories: [""]
 featured_image:
 description: "一个帮助棋手做日常训练和持续提升的 Android 应用。"

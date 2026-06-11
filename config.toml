@@ -58,8 +58,8 @@ posts = "/:year/:month/:day/:slug"
 [params]
   env = "production"
   author = "mousepotato"
-  description = "mousepotato 的个人博客"
-  keywords = ["blog", "Networking", "Hugo", "GNU/Linux", "Linux", "Ubuntu", "Programming"]
+  description = "鼠标土豆，硅谷 11 年软件工程师，独立开发者。一个人用 AI 构建产品：Octoflow、Vidflow、Octopus 等。写独立开发、AI 工具、一人公司的真实经验。"
+  keywords = ["独立开发者", "一人公司", "AI 工具", "独立产品", "硅谷", "Indie Hacker", "Programming"]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
@@ -89,6 +89,20 @@ posts = "/:year/:month/:day/:slug"
     name = "rss"
     title = "RSS"
     url = "/index.xml"
+
+  [params.schema]
+    publisherType = "Person"
+
+  [params.authorDetails]
+    name = "鼠标土豆 (mousepotato)"
+    jobTitle = "独立开发者 / Indie Hacker"
+    description = "硅谷 11 年软件工程师，独立开发者，已发布 6 个 App。一个人用 AI 构建产品，记录一人公司的真实过程。"
+    sameAs = [
+      "https://github.com/mousepotato",
+      "https://x.com/iluciddreaming",
+      "https://www.youtube.com/@toudouge_ai",
+      "https://anotherbug.com/about"
+    ]
 
   [params.assets]
     favicon = "/assets/images/favicon.svg"
