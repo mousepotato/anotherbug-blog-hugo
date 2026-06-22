@@ -1,0 +1,25 @@
+# Legal / policy pages: no search indexing, no AI crawling.
+# Add a new path here when creating static legal pages under static/.
+paths:
+  - /privacy/
+  - /tos/
+  - /threads/data-deletion/
+  - /octopus-garden-privacy/
+  - /chessimprovementai-privacy/
+
+ai_crawlers:
+  - GPTBot
+  - ChatGPT-User
+  - CCBot
+  - anthropic-ai
+  - ClaudeBot
+  - Claude-Web
+  - PerplexityBot
+  - Google-Extended
+  - Applebot-Extended
+  - Amazonbot
+  - FacebookBot
+  - Bytespider
+  - cohere-ai
+  - Diffbot
+  - meta-externalagent

@@ -1,117 +1,20 @@
+{{- $paths := site.Data.legal_pages.paths -}}
+{{- $bots := site.Data.legal_pages.ai_crawlers -}}
 User-agent: *
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
+{{- range $paths }}
+Disallow: {{ . }}
+{{- end }}
 {{- else }}
 Disallow: /
 {{- end }}
 Sitemap: {{ "sitemap.xml" | absURL }}
 
 # Legal pages: block AI crawlers
-User-agent: GPTBot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
+{{- range $bots }}
+User-agent: {{ . }}
+{{- range $paths }}
+Disallow: {{ . }}
+{{- end }}
 
-User-agent: ChatGPT-User
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: CCBot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: anthropic-ai
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: ClaudeBot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: Claude-Web
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: PerplexityBot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: Google-Extended
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: Applebot-Extended
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: Amazonbot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: FacebookBot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: Bytespider
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: cohere-ai
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: Diffbot
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
-
-User-agent: meta-externalagent
-Disallow: /privacy/
-Disallow: /tos/
-Disallow: /threads/data-deletion/
-Disallow: /octopus-garden-privacy/
-Disallow: /chessimprovementai-privacy/
+{{- end }}
