@@ -113,6 +113,26 @@ Current deployment flow:
 5. The generated `public/` directory is uploaded as the Pages artifact
 6. GitHub Pages deploys the site
 
+## Legal / Policy Pages
+
+Some static pages exist only for app compliance (Meta Threads, Octopus Garden, etc.). They are **not shown in blog navigation**.
+
+- Agent / maintainer guide: [AGENTS.md](./AGENTS.md)
+- Path registry: `data/legal_pages.yaml`
+- Anti-index meta snippet: `scripts/legal-head-meta.snippet`
+- Checker: `python3 scripts/check_legal_pages.py`
+
+**Tudouge Social Threads (Meta form):**
+
+| Field | URL |
+|-------|-----|
+| Privacy Policy | https://anotherbug.com/privacy/ |
+| Terms of Service | https://anotherbug.com/tos/ |
+| Data deletion | https://anotherbug.com/threads/data-deletion/ |
+| Contact email | paradise.lsj@gmail.com |
+
+To add a new legal page: see checklist in [AGENTS.md](./AGENTS.md).
+
 ## Repository Structure
 
 ```text
@@ -120,8 +140,13 @@ Current deployment flow:
 ├── .github/workflows/
 ├── archetypes/
 ├── content/
-├── static/
+├── data/legal_pages.yaml
+├── static/                  # includes legal pages (privacy, tos, etc.)
 ├── themes/tapa/
+├── scripts/
+│   ├── legal-head-meta.snippet
+│   └── check_legal_pages.py
+├── AGENTS.md
 ├── config.toml
 ├── new-post
 └── deploy
