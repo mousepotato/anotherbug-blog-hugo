@@ -64,7 +64,7 @@ description: "anotherbug.com 的隐私政策：本站如何使用 Cookie、Googl
 
 对本政策有任何疑问，或希望了解与你相关的数据，请发邮件至：
 
-**paradise.lsj@gmail.com**
+<strong>{{< email >}}</strong>
 
 ---
 

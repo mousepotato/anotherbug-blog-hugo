@@ -1,0 +1,28 @@
+{{- /* Spam-resistant mailto link.
+
+       Usage: {{< email >}}  or  {{< email "someone@example.com" >}}
+       Defaults to site.Params.contactEmail.
+
+       The address never appears in the served HTML in scrapable form: it is
+       stored reversed and reassembled in the browser. Note that Hugo's --minify
+       decodes HTML entities, so &#64;-style encoding does NOT survive the build —
+       that is why this uses JS rather than entities.
+
+       Without JS the <noscript> fallback shows a human-readable form. */ -}}
+{{- $addr := .Get 0 | default site.Params.contactEmail -}}
+{{- if not $addr }}{{ errorf "email shortcode: no address given and site.Params.contactEmail is unset (%s)" .Position }}{{ end -}}
+{{- $rev := "" -}}
+{{- range $i, $c := split $addr "" }}{{ $rev = printf "%s%s" $c $rev }}{{ end -}}
+{{- $id := printf "eml-%d" (add 1 .Ordinal) -}}
+{{- $parts := split $addr "@" -}}
+<span class="email-link" id="{{ $id }}"></span>
+<script>
+(function () {
+  var s = {{ $rev }}.split("").reverse().join("");
+  var a = document.createElement("a");
+  a.href = "mailto:" + s;
+  a.textContent = s;
+  document.getElementById({{ $id }}).appendChild(a);
+})();
+</script>
+<noscript>{{ index $parts 0 }} [at] {{ replace (index $parts 1) "." " [dot] " }}</noscript>

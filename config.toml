@@ -73,6 +73,9 @@ posts = "/:year/:month/:day/:slug"
   mainSections = ["posts"]
   images = ["assets/images/profile.jpg"]
 
+  # 供 {{< email >}} shortcode 使用；不会以明文形式出现在构建产物里。
+  contactEmail = "paradise.lsj@gmail.com"
+
   [params.adsense]
     client = "ca-pub-2012267054436559"
     # AdSense 广告单元 anotherbug-article-end 的 data-ad-slot。

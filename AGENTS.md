@@ -136,6 +136,8 @@ Publisher: `ca-pub-2012267054436559`（与 `static/app-ads.txt` 中的 AdMob 同
   上线新广告位前必须先在 AdSense 后台创建单元拿到 slot ID。
 - 不投放：列表页、tags、`/about/`、`/thoughts/`、`/main/`、`products` tag、
   `章鱼花园期刊` tag、字数低于 `params.adsense.minWords`、`noAds: true` 的文章。
+- 页面里写邮箱一律用 `{{< email >}}` shortcode（地址在 `params.contactEmail`）。
+  **不要**用 `&#64;` 这类 HTML 实体编码——`hugo --minify` 会把实体解码回明文，白做。
 - `/privacy-policy/` **不要**加进 `data/legal_pages.yaml`——那是屏蔽名单，这一页必须能被抓取。
 - `layouts/_default/single.html` 是 `themes/tapa/` 同名文件的副本，升级主题时需手动合并。
 
