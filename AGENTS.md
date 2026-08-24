@@ -123,7 +123,7 @@ Publisher: `ca-pub-2012267054436559`（与 `static/app-ads.txt` 中的 AdMob 同
 |------|------|
 | `static/ads.txt` | IAB 授权卖家声明，与 `app-ads.txt` 同一行内容 |
 | `layouts/partials/adsense-enabled.html` | **唯一的资格判定入口**，loader 与广告单元共用 |
-| `layouts/partials/extend_head.html` | 覆盖主题 stub，按需注入 loader 脚本 |
+| `layouts/partials/extend_head.html` | 覆盖主题 stub，**全站**注入 loader 脚本 |
 | `layouts/partials/adsense-unit.html` | 响应式 display 单元，接收 `dict "slot" ...` |
 | `layouts/_default/single.html` | **主题文件的副本**，只多了文末广告位调用 |
 | `assets/css/extended/adsense.css` | 广告位间距 + 无填充时折叠 |
@@ -132,6 +132,8 @@ Publisher: `ca-pub-2012267054436559`（与 `static/app-ads.txt` 中的 AdMob 同
 ### 规则
 
 - 加广告位改 `adsense-enabled.html` 一处即可，**不要**在模板里另写判定条件。
+- loader 脚本是**全站**加载的（Google 站点审核要求 "on each page"），
+  但广告位只在 `adsense-enabled.html` 判定通过的页面渲染。两者不要混为一谈。
 - `config.toml` 的 `params.adsense.articleEndSlot` 留空时全站不加载任何 AdSense 代码。
   上线新广告位前必须先在 AdSense 后台创建单元拿到 slot ID。
 - 不投放：列表页、tags、`/about/`、`/thoughts/`、`/main/`、`products` tag、

@@ -1,4 +1,14 @@
-{{- /* Overrides the theme stub. AdSense loader — only on pages that render a unit. */ -}}
-{{- if partial "adsense-enabled.html" . }}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.Params.adsense.client }}" crossorigin="anonymous"></script>
+{{- /* Overrides the theme stub.
+
+       The AdSense loader goes on EVERY Hugo-rendered page, not only the ones
+       that render a unit: Google's site review and ownership checks expect the
+       code "on each page of your site", and reviewers commonly land on the
+       homepage. Whether a page actually shows an ad is still decided
+       independently by adsense-enabled.html.
+
+       Legal pages under static/ are raw HTML that Hugo never templates, so they
+       stay free of ad code automatically. */ -}}
+{{- $ads := site.Params.adsense }}
+{{- if and (hugo.IsProduction | or (eq site.Params.env "production")) $ads $ads.client }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $ads.client }}" crossorigin="anonymous"></script>
 {{- end }}
