@@ -73,6 +73,17 @@ posts = "/:year/:month/:day/:slug"
   mainSections = ["posts"]
   images = ["assets/images/profile.jpg"]
 
+  [params.adsense]
+    client = "ca-pub-2012267054436559"
+    # AdSense 广告单元 anotherbug-article-end 的 data-ad-slot。
+    # 留空时不加载任何 AdSense 脚本、不渲染任何广告位。
+    articleEndSlot = "4955473422"
+    # 低于该字数的文章不投广告（中文按字符计，hasCJKLanguage 已开启）。
+    minWords = 200
+
+  [params.footer]
+    text = "[隐私政策](/privacy-policy/)"
+
   [params.label]
     text = "鼠标土豆"
 

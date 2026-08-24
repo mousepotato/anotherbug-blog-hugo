@@ -151,3 +151,8 @@ To add a new legal page: see checklist in [AGENTS.md](./AGENTS.md).
 ├── new-post
 └── deploy
 ```
+
+## 隐私政策 / AdSense
+
+站点隐私政策在 `content/privacy-policy.md`（`/privacy-policy/`，可索引），
+与 `static/` 下各 App 的法务页是两回事。AdSense 配置见 AGENTS.md。

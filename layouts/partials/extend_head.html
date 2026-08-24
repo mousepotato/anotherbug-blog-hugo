@@ -1,0 +1,4 @@
+{{- /* Overrides the theme stub. AdSense loader — only on pages that render a unit. */ -}}
+{{- if partial "adsense-enabled.html" . }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.Params.adsense.client }}" crossorigin="anonymous"></script>
+{{- end }}

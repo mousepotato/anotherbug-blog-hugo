@@ -1,0 +1,24 @@
+{{- /* Returns "true" when this page may carry an AdSense unit, empty otherwise.
+       Shared by extend_head.html (loader script) and _default/single.html (unit)
+       so the loader and the unit can never disagree.
+
+       Excluded on purpose:
+       - anything but a single post page (lists, tags, /about/, /thoughts/, /main/)
+       - `products` tag: OctoFlow / Vidflow / Octopus pages are the paid-conversion
+         funnel, same reasoning as keeping the product subdomains ad-free
+       - `章鱼花园期刊`: 25 link-roundup issues, heavy third-party quoting —
+         AdSense "insufficient original content" risk
+       - posts shorter than params.adsense.minWords — no ads on thin pages
+       - per-post escape hatch: `noAds: true` in front matter */ -}}
+{{- $ads := site.Params.adsense -}}
+{{- $ok := true -}}
+{{- if not (hugo.IsProduction | or (eq site.Params.env "production")) }}{{ $ok = false }}{{ end -}}
+{{- if not (and $ads $ads.client $ads.articleEndSlot) }}{{ $ok = false }}{{ end -}}
+{{- if ne .Kind "page" }}{{ $ok = false }}{{ end -}}
+{{- if ne .Type "posts" }}{{ $ok = false }}{{ end -}}
+{{- if eq (.Param "noAds") true }}{{ $ok = false }}{{ end -}}
+{{- if eq (.Param "robotsNoIndex") true }}{{ $ok = false }}{{ end -}}
+{{- if in .Params.tags "章鱼花园期刊" }}{{ $ok = false }}{{ end -}}
+{{- if in .Params.tags "products" }}{{ $ok = false }}{{ end -}}
+{{- if lt .WordCount (int ($ads.minWords | default 200)) }}{{ $ok = false }}{{ end -}}
+{{- if $ok }}true{{ end -}}

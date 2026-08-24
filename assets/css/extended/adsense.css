@@ -1,0 +1,16 @@
+/* AdSense article-end slot. Kept deliberately quiet: clear separation from the
+   post body, and fully collapsed when Google returns no fill so unsold
+   impressions never leave a hole in the page. */
+.adsense-slot {
+    margin: 40px 0 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.adsense-slot .adsbygoogle {
+    display: block;
+}
+
+.adsense-slot .adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}

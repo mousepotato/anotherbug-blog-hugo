@@ -1,0 +1,13 @@
+{{- /* One responsive AdSense display unit.
+       Call with: dict "slot" "1234567890" */ -}}
+{{- with .slot }}
+<div class="adsense-slot">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.Params.adsense.client }}"
+       data-ad-slot="{{ . }}"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{{- end }}
