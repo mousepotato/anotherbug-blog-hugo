@@ -7,6 +7,7 @@ categories:
 tags:
 - ubuntu
 - linux
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 

@@ -6,6 +6,7 @@ categories:
 - technique
 tags:
 - windows
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 

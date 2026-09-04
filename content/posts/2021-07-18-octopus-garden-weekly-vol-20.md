@@ -7,6 +7,7 @@ tags: ["章鱼花园期刊"]
 categories: ["Technique"]
 featured_image:
 description:
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 #### 科技

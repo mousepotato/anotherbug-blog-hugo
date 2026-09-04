@@ -7,6 +7,7 @@ tags: ["章鱼花园期刊"]
 categories: ["Technique"]
 featured_image:
 description:
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 > For He spoke, and it was done; He commanded, and it stood fast. Psalm 33:9 NASB. 因为他说有，就有，命立，就立。诗篇 33:9

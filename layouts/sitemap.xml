@@ -1,0 +1,22 @@
+{{- /* Overrides Hugo's built-in sitemap.
+
+       Pages flagged `robotsNoIndex: true` are excluded, so the sitemap stays
+       consistent with the <meta name="robots" content="noindex"> the theme
+       emits for them (themes/tapa/layouts/partials/head.html:4). Submitting a
+       noindexed URL in a sitemap is a contradictory signal to search engines.
+
+       Flip a post back into the index by removing that one front-matter line —
+       nothing else needs to change. */ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range .Data.Pages }}
+  {{- if and .Permalink (ne (.Param "robotsNoIndex") true) }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
+    {{- end }}
+  </url>
+  {{- end }}
+  {{- end }}
+</urlset>

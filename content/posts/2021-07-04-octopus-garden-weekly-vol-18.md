@@ -7,6 +7,7 @@ tags: ["章鱼花园期刊"]
 categories: ["Technique"]
 featured_image:
 description:
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 > carpe diem, quam minimum credula postero, which is often translated as "Seize the day, put very little trust in tomorrow (the future)" - Horace  贺拉斯，古罗马著名诗人。

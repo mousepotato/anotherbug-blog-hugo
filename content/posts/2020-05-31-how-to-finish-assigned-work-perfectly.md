@@ -7,6 +7,7 @@ tags: ["gtd"]
 categories: ["personal"]
 featured_image:
 description:
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 - 如何出色的完成老板交代的任务

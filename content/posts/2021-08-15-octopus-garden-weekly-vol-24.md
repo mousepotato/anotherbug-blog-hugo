@@ -7,6 +7,7 @@ tags: ["章鱼花园期刊"]
 categories: ["Technique"]
 featured_image:
 description:
+robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
 ---
 
 > The future is already here - it's just not evenly distributed. William Gibson 未来已经来临，只是还没有平均分布。 威廉.吉布森，科幻小说作家
