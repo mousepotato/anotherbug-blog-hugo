@@ -8,6 +8,8 @@ categories: ["Technique"]
 featured_image:
 description:
 robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
+build:
+  list: never   # 不出现在 /posts/、标签页、RSS；直接 URL 仍可访问
 ---
 
 > The future is already here - it's just not evenly distributed. William Gibson 未来已经来临，只是还没有平均分布。 威廉.吉布森，科幻小说作家

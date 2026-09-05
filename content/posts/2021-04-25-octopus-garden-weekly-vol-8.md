@@ -8,6 +8,8 @@ categories: ["Technique"]
 featured_image:
 description:
 robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
+build:
+  list: never   # 不出现在 /posts/、标签页、RSS；直接 URL 仍可访问
 ---
 
 > 瑞典作家弗雷德里克·巴克曼在《熊镇》写道：我们守护什么，我们就成为什么。

@@ -8,6 +8,8 @@ categories: ["Technique"]
 featured_image:
 description:
 robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
+build:
+  list: never   # 不出现在 /posts/、标签页、RSS；直接 URL 仍可访问
 ---
 
 - slop: named Merriam-Webster’s word of the year for 2025. It defines: digital content of low quality that is produced usually in quantity by means of AI.

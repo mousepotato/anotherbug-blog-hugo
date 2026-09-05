@@ -8,6 +8,8 @@ categories: ["Technique"]
 featured_image:
 description:
 robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
+build:
+  list: never   # 不出现在 /posts/、标签页、RSS；直接 URL 仍可访问
 ---
 
 > For He spoke, and it was done; He commanded, and it stood fast. Psalm 33:9 NASB. 因为他说有，就有，命立，就立。诗篇 33:9

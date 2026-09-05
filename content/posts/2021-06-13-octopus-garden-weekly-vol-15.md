@@ -8,6 +8,8 @@ categories: ["Technique"]
 featured_image:
 description:
 robotsNoIndex: true  # 低价值/聚合内容，不进搜索索引与 sitemap
+build:
+  list: never   # 不出现在 /posts/、标签页、RSS；直接 URL 仍可访问
 ---
 
 >「希望，是我们这个时代像钻石一样珍贵的东西！」 ——《流浪地球》 #Quotes 
